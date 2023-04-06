@@ -14,11 +14,11 @@ namespace tpbiblio
         private string editeur;
         private string auteur;
 
-        public Livre(string co, string ti, int an, string ed, string aut)
+       public Livre(string co, string ti, int an, string ed, string aut)
         {
             code = co;
             titre = ti;
-            annee = an;
+            annee = an; 
             editeur = ed;
             auteur = aut;
         }
